@@ -1,0 +1,35 @@
+/* .room{
+    display: grid;
+  
+    place-items: center;
+} */
+.video_container{
+  display: flex;
+}
+.myvideo{
+  height: 200px;
+  width: 200px;
+}
+.myvideo > video{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.model_body_with_loding_indicator{
+  background: #d8e3e8;
+  height: 200px;
+  width: 300px;
+  display: grid;
+  place-items:center;
+  /* justify-content: center; */
+  /* margin-top: 50px; */
+  /* margin-bottom: auto; */
+  margin-left: auto;
+  margin-right: auto;
+  align-self:center;
+}
+.MuiCircularProgress-indeterminate{
+  color: red;
+
+}  

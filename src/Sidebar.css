@@ -1,0 +1,34 @@
+.sildebar_list{
+    display:flex;
+    flex-direction: column;
+    /* margin-top: 10px; */
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0.25;
+    height: 100vh;
+    background: rgb(184, 179, 179);
+}
+.profile_image{
+    margin-top: 10px;
+    display: flex;
+    
+    flex-direction: column;
+    justify-items: center;
+}
+.profile_image > p{
+    padding: 5px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.avator_image{
+    object-fit: cover;
+    min-width: 100px !important;
+    min-height: 100px !important;
+    max-width: 170px !important;
+    max-height: 170px !important;
+}

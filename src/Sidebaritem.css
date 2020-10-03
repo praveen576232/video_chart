@@ -1,0 +1,21 @@
+.sidebar_item{
+   
+   width: 100%;
+    
+  
+    
+}
+.sidebar_item > h4{
+  padding: 15px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.sidebar_item :hover{
+    /* padding: 10px; */
+    color: white;
+    background: rgb(66, 66, 245);
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  

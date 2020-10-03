@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: rgb(199, 199, 202);
+   
+   height: 55px;
+}
+
+.header_img_logo > img{
+   margin-left: 10px;
+    width: 50px;
+   height: 55px;
+    object-fit: cover;
+}
+.right_header{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    color: rgb(33, 33, 212);
+}
+.right_header > p{
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.right_header > p:hover{
+    padding: 10px;
+    color: blue;
+    background: rgb(206, 198, 198);
+     border: 1px solid black;
+}
